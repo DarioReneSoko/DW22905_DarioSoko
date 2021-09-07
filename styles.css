@@ -1,1 +1,344 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bloque1 {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 768) {
+  .bloque1 {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/*Condicionales*/
+.texto {
+  color: red;
+}
+
+/*bucle*/
+li:nth-child(1) {
+  background-color: #1a1a1a;
+}
+
+li:nth-child(2) {
+  background-color: #333333;
+}
+
+li:nth-child(3) {
+  background-color: #4d4d4d;
+}
+
+li:nth-child(4) {
+  background-color: #666666;
+}
+
+li:nth-child(5) {
+  background-color: gray;
+}
+
+li:nth-child(6) {
+  background-color: #999999;
+}
+
+li:nth-child(7) {
+  background-color: #b3b3b3;
+}
+
+li:nth-child(8) {
+  background-color: #cccccc;
+}
+
+li:nth-child(9) {
+  background-color: #e6e6e6;
+}
+
+li:nth-child(10) {
+  background-color: white;
+}
+
+.margen-1 {
+  margin: 10px;
+}
+
+.margen-2 {
+  margin: 20px;
+}
+
+.margen-3 {
+  margin: 30px;
+}
+
+.margen-4 {
+  margin: 40px;
+}
+
+.margen-5 {
+  margin: 50px;
+}
+
+/*each*/
+.font-16px {
+  font-size: 16px;
+}
+
+.font-24px {
+  font-size: 24px;
+}
+
+.font-32px {
+  font-size: 32px;
+}
+
+.font-40px {
+  font-size: 40px;
+}
+
+/*map*/
+.color-rojo {
+  color: red;
+}
+
+.color-azul {
+  color: blue;
+}
+
+.color-verde {
+  color: green;
+}
+
+.color-amarillo {
+  color: yellow;
+}
+
+/*extend*/
+.enlaces, .enlace-Facebook, .enlace-Twitter, .enlace-Correo {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.enlace-Facebook {
+  padding: 10px;
+  background-color: #3a5795;
+}
+
+.enlace-Twitter {
+  padding: 10px;
+  background-color: #55acee;
+}
+
+.enlace-Correo {
+  padding: 10px;
+  background-color: #C25E30;
+}
+
+.boton, .boton-azul {
+  padding: 10px;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+
+.boton-azul {
+  background-color: blue;
+}
+
+/*mixin*/
+.cuadrado {
+  height: 400px;
+  width: 400px;
+}
+
+.pantalla-completa {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navegacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 30px;
+  background-color: cornsilk;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+/*================*/
+.boton2 {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: #c25e30;
+  border-radius: 5px;
+}
+
+.boton2:hover {
+  background-color: #d98a65;
+}
+
+.boton3 {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: #94da25;
+}
+
+.boton3:hover {
+  background-color: #68991a;
+}
+
+.boton-rojo {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.boton-rojo:hover {
+  background-color: #ff4d4d;
+}
+
+.boton-azul {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.boton-azul:hover {
+  background-color: #4d4dff;
+}
+
+.boton-verde {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.boton-verde:hover {
+  background-color: #00cd00;
+}
+
+.boton-amarillo {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.boton-amarillo:hover {
+  background-color: #ffff4d;
+}
+
+.boton-rojo-dark {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.boton-rojo-dark:hover {
+  background-color: #b30000;
+}
+
+.boton-azul-dark {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.boton-azul-dark:hover {
+  background-color: #0000b3;
+}
+
+.boton-verde-dark {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.boton-verde-dark:hover {
+  background-color: #003400;
+}
+
+.boton-amarillo-dark {
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.boton-amarillo-dark:hover {
+  background-color: #b3b300;
+}
+/*# sourceMappingURL=styles.css.map */
